@@ -2,6 +2,7 @@
 
 function includeFilesInFolder( string $folder ): void
 {
+    if( !file_exists( $folder ) ) return;
     $files = array_diff( scandir( $folder ), ['..', '.'] );
 
     foreach ( $files as $file ) {
