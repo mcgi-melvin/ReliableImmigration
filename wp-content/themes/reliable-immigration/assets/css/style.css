@@ -1,0 +1,30 @@
+:root {
+    --color-1: #241E56;
+    --color-2: #2D2673;
+    --color-3: #C31218;
+}
+
+header {
+    margin: auto;
+}
+
+header .header-container {
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+}
+
+header .header-container .header-navigation {
+
+}
+
+header .header-container .header-navigation .header-top {
+    background-color: var(--color-1);
+}
+
+header .header-container .header-logo {
+    max-width: 390px;
+    width: 100%;
+    padding: 20px;
+}
+

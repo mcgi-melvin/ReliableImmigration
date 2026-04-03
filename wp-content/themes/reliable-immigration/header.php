@@ -9,6 +9,18 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
+    <div class="header-container">
+        <div class="header-navigation">
+            <div class="header-top">
 
+            </div>
+            <div class="header-main">
+
+            </div>
+        </div>
+        <div class="header-logo">
+
+        </div>
+    </div>
 </header>
 <main>
