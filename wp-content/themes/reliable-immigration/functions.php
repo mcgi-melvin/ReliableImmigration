@@ -1,5 +1,4 @@
 <?php
-
 function includeFilesInFolder( string $folder ): void
 {
     if( !file_exists( $folder ) ) return;
